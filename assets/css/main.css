@@ -3585,7 +3585,7 @@
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		/* padding: 8em 0 6em 0; */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3598,7 +3598,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-position: center;
+		/* background-position: center; */
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -3684,10 +3684,10 @@
 			-webkit-transition: height 0.2s ease;
 			-ms-transition: height 0.2s ease;
 			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 3s forwards;
-			-webkit-animation: more 0.75s ease-out 3s forwards;
-			-ms-animation: more 0.75s ease-out 3s forwards;
-			animation: more 0.75s ease-out 3s forwards;
+			/* -moz-animation: more 0.75s ease-out 3s forwards; */
+			/* -webkit-animation: more 0.75s ease-out 3s forwards; */
+			/* -ms-animation: more 0.75s ease-out 3s forwards; */
+			/* animation: more 0.75s ease-out 3s forwards; */
 			background-color: rgba(255, 255, 255, 0.15);
 			border: 0;
 			border-radius: 1em 1em 0 0;
@@ -3736,17 +3736,17 @@
 			}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			/* -moz-transition: opacity 3s ease; */
+			/* -webkit-transition: opacity 3s ease; */
+			/* -ms-transition: opacity 3s ease; */
+			/* transition: opacity 3s ease; */
+			/* -moz-transition-delay: 1.25s; */
+			/* -webkit-transition-delay: 1.25s; */
+			/* -ms-transition-delay: 1.25s; */
+			/* transition-delay: 1.25s; */
 			content: '';
 			display: block;
-			background-color: #000;
+			/* background-color: #000; */
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
