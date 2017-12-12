@@ -4,6 +4,8 @@
 		<title>基隆跨產業交流會暨耶誕新創博覽會</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/jquery.fullpage.min.css"/>
 		<script src="assets/js/jquery.min.js"></script>
@@ -11,24 +13,49 @@
 		<script src="assets/js/scrolloverflow.min.js" ></script>
 		<script src="assets/js/jquery.fullpage.min.js" ></script>
 		<script src="assets/js/jquery.fullpage.extensions.min.js"></script>
+		<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-
+		<style>
+			.navbar-nav {
+				flex-direction: row;
+			}
+			a {
+				text-decoration: none;
+				color:#ffffff;
+			}					
+		</style>
 		<!-- Header -->
-			<header id="header">
-				<!-- <div class="logo"><a href="index.html">基隆跨產業交流會暨耶誕新創博覽會<span> by @Mavis</span></a></div> -->
+			<!-- <header id="header">
+				<div class="logo"><a href="index.html">基隆跨產業交流會暨耶誕新創博覽會<span> by @Mavis</span></a></div>
 				<a href="#menu"><span>Menu</span></a>
-			</header>
+				
+			</header> -->
 
 		<!-- Nav -->
-			<nav id="menu">
+			<!-- <nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="generic.html">Generic</a></li>
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
+			</nav> -->
+			<nav class="navbar sticky-top navbar-dark bg-dark">
+				<!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>				 -->
+				<a class="navbar-brand" href="#1">Home</a>
+				<!-- <div class="collapse navbar-collapse" id="navbarNavDropdown"></div> -->
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a href="#1"></a></li>
+						<li><a class="nav-item" href="#2">活動內容</a></li>
+						<li><a class="nav-item" href="#3">活動內容2</a></li>
+						<li><a class="nav-item" href="#4">活動內容3</a></li>
+						<li><a class="nav-item" href="#4">活動內容4</a></li>
+					</ul>				
+				<!-- </div> -->
 			</nav>
-
 		<!-- Banner -->
 		<!--
 			Note: To show a background image, set the "data-bg" attribute below
@@ -36,36 +63,43 @@
 			the background image.
 		-->
 		<div id="fullpage">
-				<div class="section">
+				<div class="section" >
 					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
 						<div class="inner">
 							<header>
-								<h2 href="" style="cursor:pointer;">基隆跨產業交流會暨耶誕新創博覽會</h2>
+								<h2 href="" style="cursor:pointer; font-size:2rem;">基隆跨產業交流會暨耶誕新創博覽會</h2>
+								<p style="font-size:1.2rem;">本活動內容主要包含：新創經營經驗交流、不同技術交流、市場資訊交流及國內外資訊之提供、行銷策略探討、共同發展研究之推行、新創事業發展之相關課題，藉由活動讓各新創產業彼此交流、拓展視野、互助互惠，一同推展基隆在地產業。</p>
 							</header>
 						</div>
-						<a href="#one" class="more">Learn More</a>
 					</section>
 				</div>
 
 
-				<div class="section">
+				<div class="section" >
 					<!-- One -->
 					<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
 					<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Nibh non lobortis mus nibh</h2>
-							<p>01.01.2017</p>
+							<h2>活動內容</h2>
+							<!-- <p>01.01.2017</p> -->
+												
 						</header>
 						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+							<h3 >跨產業交流會</h3>
+							<p>透過各個團隊分享2017年成果及2018年目標，媒合同異業合作之可能性，提升基隆在地產業的競爭力。</p>
+							<h3>耶誕新創博覽會</h3>
+							<p>新創團隊透過擺攤介紹，與民眾互動，貼近市場需求並提升團隊品牌知名度。</p>
+							<h3>活動時間 & 地點</h3>
+							<p>2017/12/24 (日) 08:00 – 21:00 國立海洋科技博物館 教育中心</p>
+							<p>2017/12/25 (一) 09:00 – 17:00 國立臺灣海洋大學 人社院二樓	</p>
 						</div>
-						<footer>
+						<!-- <footer>
 							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
+						</footer> -->
 						</article>
 					</div>
-					<a href="#two" class="more">Learn More</a>
+					<!-- <a href="#two" class="more">Learn More</a> -->
 					</section>
 					
 				</div>
@@ -187,7 +221,9 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 				$(document).ready(function() {
-					$('#fullpage').fullpage();
+					$('#fullpage').fullpage({
+						anchors: ['1', '2', '3', '4'],
+					});
 				});
 			</script>
 	</body>
