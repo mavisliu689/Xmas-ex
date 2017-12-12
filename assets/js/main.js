@@ -91,23 +91,23 @@
 					i = p.find('.inner'),
 					m = p.find('.more');
 
-				m.addClass('scrolly');
+				// m.addClass('scrolly');
 
-				p.scrollex({
-					top: '40vh',
-					bottom: '40vh',
-					terminate: 	function() { m.removeClass('current'); i.removeClass('current'); },
-					enter: 		function() { m.addClass('current'); i.addClass('current'); },
-					leave: 		function() { m.removeClass('current'); i.removeClass('current'); }
-				});
+				// p.scrollex({
+				// 	top: '40vh',
+				// 	bottom: '40vh',
+				// 	terminate: 	function() { m.removeClass('current'); i.removeClass('current'); },
+				// 	enter: 		function() { m.addClass('current'); i.addClass('current'); },
+				// 	leave: 		function() { m.removeClass('current'); i.removeClass('current'); }
+				// });
 
 			});
 
 		// Scrolly.
-			if ( $( ".scrolly" ).length ) {
+			// if ( $( ".scrolly" ).length ) {
 
-				$('.scrolly').scrolly();
-			}
+			// 	$('.scrolly').scrolly();
+			// }
 
 		// Menu.
 			$('#menu')
