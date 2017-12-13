@@ -4,16 +4,19 @@
 		<title>基隆跨產業交流會暨耶誕新創博覽會</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/jquery.fullpage.min.css"/>
 		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.easings.min.js" ></script>		
+		<script src="assets/js/jquery.easings.min.js" ></script>
 		<script src="assets/js/scrolloverflow.min.js" ></script>
 		<script src="assets/js/jquery.fullpage.min.js" ></script>
 		<script src="assets/js/jquery.fullpage.extensions.min.js"></script>
 		<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
@@ -24,13 +27,13 @@
 			a {
 				text-decoration: none;
 				color:#ffffff;
-			}					
+			}
 		</style>
 		<!-- Header -->
 			<!-- <header id="header">
 				<div class="logo"><a href="index.html">基隆跨產業交流會暨耶誕新創博覽會<span> by @Mavis</span></a></div>
 				<a href="#menu"><span>Menu</span></a>
-				
+
 			</header> -->
 
 		<!-- Nav -->
@@ -41,20 +44,23 @@
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav> -->
-			<nav class="navbar sticky-top navbar-dark bg-dark">
-				<!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>				 -->
-				<a class="navbar-brand" href="#1">Home</a>
-				<!-- <div class="collapse navbar-collapse" id="navbarNavDropdown"></div> -->
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active"><a href="#1"></a></li>
-						<li><a class="nav-item" href="#2">活動內容</a></li>
-						<li><a class="nav-item" href="#3">活動內容2</a></li>
-						<li><a class="nav-item" href="#4">活動內容3</a></li>
-						<li><a class="nav-item" href="#4">活動內容4</a></li>
-					</ul>				
-				<!-- </div> -->
+			<nav class="navbar sticky-top navbar-expand-lg navbar-toggleable-md navbar-dark bg-dark">
+				<div class="container">
+					<a class="navbar-brand" href="#1">Home</a>
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+						data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active"><a class="nav-link" href="#1"></a></li>
+							<li class="nav-item"><a class="nav-link" href="#2">活動內容</a></li>
+							<li class="nav-item"><a class="nav-link" href="#3">活動內容2</a></li>
+							<li class="nav-item"><a class="nav-link" href="#4">活動內容3</a></li>
+							<li class="nav-item"><a class="nav-link" href="#4">活動內容4</a></li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 		<!-- Banner -->
 		<!--
@@ -83,7 +89,7 @@
 						<header>
 							<h2>活動內容</h2>
 							<!-- <p>01.01.2017</p> -->
-												
+
 						</header>
 						<div class="content">
 							<h3 >跨產業交流會</h3>
@@ -101,7 +107,7 @@
 					</div>
 					<!-- <a href="#two" class="more">Learn More</a> -->
 					</section>
-					
+
 				</div>
 
 
@@ -125,10 +131,10 @@
 							</article>
 						</div>
 						<a href="#three" class="more">Learn More</a>
-					</section>					
+					</section>
 				</div>
-				
-				
+
+
 				<div class="section">
 					<!-- Three -->
 					<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
@@ -147,9 +153,9 @@
 						</article>
 						</div>
 						<a href="#four" class="more">Learn More</a>
-					</section>					
+					</section>
 				</div>
-		</div>		
+		</div>
 
 
 
