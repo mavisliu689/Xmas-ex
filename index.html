@@ -4,9 +4,8 @@
 		<title>基隆跨產業交流會暨耶誕新創博覽會</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/bootstrap/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/jquery.fullpage.min.css"/>
@@ -28,6 +27,15 @@
 				text-decoration: none;
 				color:#ffffff;
 			}
+			.fa-group {
+				color: #d63f3f;
+			}
+			.fa-bell-o {
+				color: #e5b763;
+			}
+			.fa-calendar{
+				color: #6391e5;
+			}
 		</style>
 		<!-- Header -->
 			<!-- <header id="header">
@@ -35,16 +43,8 @@
 				<a href="#menu"><span>Menu</span></a>
 
 			</header> -->
-
-		<!-- Nav -->
-			<!-- <nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
-				</ul>
-			</nav> -->
-			<nav class="navbar sticky-top navbar-expand-lg navbar-toggleable-md navbar-dark bg-dark">
+			<nav class="navbar mynav-style sticky-top navbar-expand-lg
+					navbar-toggleable-md navbar-dark bg-dark" style="padding: 1%;">
 				<div class="container">
 					<a class="navbar-brand" href="#1">Home</a>
 					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -73,8 +73,8 @@
 					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
 						<div class="inner">
 							<header>
-								<h2 href="" style="cursor:pointer; font-size:2rem;">基隆跨產業交流會暨耶誕新創博覽會</h2>
-								<p style="font-size:1.2rem;">本活動內容主要包含：新創經營經驗交流、不同技術交流、市場資訊交流及國內外資訊之提供、行銷策略探討、共同發展研究之推行、新創事業發展之相關課題，藉由活動讓各新創產業彼此交流、拓展視野、互助互惠，一同推展基隆在地產業。</p>
+								<h2 href="" style="cursor:pointer; color:rgba(255,255,255, 1); font-size:2rem;">基隆跨產業交流會暨耶誕新創博覽會</h2>
+								<p style="font-size:1.1rem;">本活動內容主要包含：新創經營經驗交流、不同技術交流、市場資訊交流及國內外資訊之提供、行銷策略探討、共同發展研究之推行、新創事業發展之相關課題，藉由活動讓各新創產業彼此交流、拓展視野、互助互惠，一同推展基隆在地產業。</p>
 							</header>
 						</div>
 					</section>
@@ -83,20 +83,26 @@
 
 				<div class="section" >
 					<!-- One -->
-					<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
+					<section id="one" class="wrapper post bg-img" data-bg="yu-b.jpg">
 					<div class="inner">
 					<article class="box">
 						<header>
-							<h2>活動內容</h2>
+							<!-- <h2  style="font-size:1.5rem;">活動內容</h2> -->
 							<!-- <p>01.01.2017</p> -->
 
 						</header>
 						<div class="content">
-							<h3 >跨產業交流會</h3>
+							<h3 style="font-weight:bold; color:rgba(255,255,255, 0.8);">
+								<i class="fa fa-group" aria-hidden="true"></i> 跨產業交流會
+								<i class="fa fa-group" aria-hidden="true"></i></h3>
 							<p>透過各個團隊分享2017年成果及2018年目標，媒合同異業合作之可能性，提升基隆在地產業的競爭力。</p>
-							<h3>耶誕新創博覽會</h3>
+							<h3 style="font-weight:bold; color:rgba(255,255,255, 0.8);">
+								<i class="fa fa-bell-o" aria-hidden="true"></i> 耶誕新創博覽會
+								<i class="fa fa-bell-o" aria-hidden="true"></i></h3>
 							<p>新創團隊透過擺攤介紹，與民眾互動，貼近市場需求並提升團隊品牌知名度。</p>
-							<h3>活動時間 & 地點</h3>
+							<h3 style="font-weight:bold; color:rgba(255, 255, 255, 0.8);">
+								<i class="fa fa-calendar" aria-hidden="true"></i> 活動時間 & 地點
+								<i class="fa fa-calendar" aria-hidden="true"></i></h3>
 							<p>2017/12/24 (日) 08:00 – 21:00 國立海洋科技博物館 教育中心</p>
 							<p>2017/12/25 (一) 09:00 – 17:00 國立臺灣海洋大學 人社院二樓	</p>
 						</div>
