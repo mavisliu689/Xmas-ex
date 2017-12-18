@@ -40,21 +40,30 @@
 				padding-top: 1px !important;
 			}
 			#left-title{
-					font-size:2rem;
+					font-size:1.5rem;
 			}
 			#right-title{
-				font-size:4rem;
+				font-size:3.5rem;
 			}				
 			#rope {
-				width:65%;
+				width:55%;
 			}	
 			#cloud {
-				width:70%; 
-				height:45%;
+				width:90%; 
+				height:70%;
 			}
 			#snowman {
-				width:70%; 
-				height:60%;
+				width:60%; 
+				height:80%;
+			}
+			.cloud-pos {
+				left: 10rem;
+				bottom: 3.5rem;
+			}
+			#time-table {
+				/* background-color: #ffffff; */
+				border-radius: 20px;
+				color: black;
 			}
 			@media screen and (max-width: 980px) {
 
@@ -69,15 +78,19 @@
 				}
 				#cloud {
 					width:90%; 
-					height:50%;
+					height:70%;
 				}
 				#snowman {
-					width:90%; 
-					height:60%;
+					width:80%; 
+					height:80%;
 				}
 				#banner {
 					/* padding-bottom: 3%; */
-				}				
+				}
+				.cloud-pos {
+					left: 6rem;
+					bottom: 2.5rem;
+				}								
 			}
 
 			@media screen and (max-width: 736px) {
@@ -93,13 +106,16 @@
 				}
 				#cloud {
 					width:100%; 
-					height:60%;
-				}
-				#snowman {
-					width:100%; 
 					height:80%;
 				}
-
+				#snowman {
+					width:90%; 
+					height:90%;
+				}
+				.cloud-pos {
+					left: 3rem;
+					bottom: 1.4rem;
+				}	
 			}
 
 			@media screen and (max-width: 480px) {
@@ -115,12 +131,16 @@
 				}
 				#cloud {
 					width:100%; 
-					height:60%;
+					height:70%;
 				}
 				#snowman {
 					width:100%; 
 					height:80%;
-				}		
+				}
+				.cloud-pos {
+					left: 2rem;
+					bottom: 1rem;
+				}
 			}				
 		</style>
 		<!-- Header -->
@@ -157,25 +177,24 @@
 		<div id="fullpage">
 				<div class="section" >
 					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
-						<!-- <div class="inner"> -->
-							<header>
-								<div class="row">
-									<div class="col-md-8 offset-md-3">
-												<h2 id="left-title" href="" class="" 
-												style="cursor:pointer; 
-												color:rgba(255,255,255, 1); 
-												margin-bottom: 0;">基隆跨產業交流會暨</h2>
-									</div>
+						<div>
+							<div class="row">
+								<div class="col-md-8 offset-md-3">
+											<h2 id="left-title" href="" class="" 
+											style="cursor:pointer; 
+											color:rgba(255,255,255, 1); 
+											margin-bottom: 0;">基隆跨產業交流會暨</h2>
 								</div>
-								<div class="row justify-content-md-end justify-content-xs-center justify-content-sm-center">
-									<br>
-									<div class="col-md-9 offset-md-3">
-											<h2 id="right-title" class="" style="cursor:pointer; 
-																color:rgba(255,255,255, 1); 
-																margin-bottom: 0;" >耶誕新創博覽會</h2>
-											<span><img id="rope" src="./images/rope.png" style="" alt=""></span>
-									</div>
+							</div>
+							<div class="row justify-content-md-end justify-content-xs-center justify-content-sm-center">
+								<br>
+								<div class="col-md-9 offset-md-3">
+										<h2 id="right-title" class="" style="cursor:pointer; 
+															color:rgba(255,255,255, 1); 
+															margin-bottom: 0;" >耶誕新創博覽會</h2>
+										<span><img id="rope" src="./images/rope.png" style="" alt=""></span>
 								</div>
+							</div>
 									<!-- <div class="row justify-content-md-start justify-content-xs-start justify-content-sm-start">
 											<div class="col-4" style="font-family: Georgia, 'Times New Roman', Times, serif;
 																						font-size: 3rem;">
@@ -190,103 +209,87 @@
 													</svg>										
 												
 											</div> -->
-								<div class="row">
-										<!-- <div class="col-2">
-												12/24、12/25
-										</div> -->
-										<div class="col-6">
-											<img id="cloud" src="./images/cloud.png" style="" alt="">
-										</div>
-										<div class="col-6">
-											<img id="snowman" src="./images/snowman.png" style="" alt="">
-										</div>
+							<div class="row">
+								<div class="col-6 cloud-pos">
+									<img id="cloud" src="./images/cloud.png" style="" alt="">
 								</div>
-							</header>
-						<!-- </div> -->
+								<div class="col-6 snowman-pos">
+									<img id="snowman" src="./images/snowman.png" style="" alt="">
+								</div>
+							</div>
+						</div>
 					</section>
 				</div>
 
 
 				<div class="section" >
 					<!-- One -->
-					<section id="one" class="wrapper post bg-img" data-bg="yu-b.jpg">
-					<div class="inner">
-					<article class="box">
-						<header>
-							<!-- <h2  style="font-size:1.5rem;">活動內容</h2> -->
-							<!-- <p>01.01.2017</p> -->
-
-						</header>
-						<div class="content">
-							<h3 style="font-weight:bold; color:rgba(255,255,255, 0.8);">
-								<i class="fa fa-group" aria-hidden="true"></i> 跨產業交流會
-								<i class="fa fa-group" aria-hidden="true"></i></h3>
-							<p>透過各個團隊分享2017年成果及2018年目標，媒合同異業合作之可能性，提升基隆在地產業的競爭力。</p>
-							<h3 style="font-weight:bold; color:rgba(255,255,255, 0.8);">
-								<i class="fa fa-bell-o" aria-hidden="true"></i> 耶誕新創博覽會
-								<i class="fa fa-bell-o" aria-hidden="true"></i></h3>
-							<p>新創團隊透過擺攤介紹，與民眾互動，貼近市場需求並提升團隊品牌知名度。</p>
-							<h3 style="font-weight:bold; color:rgba(255, 255, 255, 0.8);">
-								<i class="fa fa-calendar" aria-hidden="true"></i> 活動時間 & 地點
-								<i class="fa fa-calendar" aria-hidden="true"></i></h3>
-							<p>2017/12/24 (日) 08:00 – 21:00 國立海洋科技博物館 教育中心</p>
-							<p>2017/12/25 (一) 09:00 – 17:00 國立臺灣海洋大學 人社院二樓	</p>
-						</div>
-						<!-- <footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer> -->
-						</article>
+					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
+					<div class="contanier">	
+					<div class="row">
+						<table class="col-md-6  col-xs-12 col-sm-12 table table-striped table-hover" id="time-table">
+							<thead> 
+								<tr>
+								<th>時間</th>
+								<th>主題</th>
+								<th>內容</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table-light">
+									<td>08:00 - 12:00</td>
+									<td>場地佈置</td>
+									<td>各攤位進場佈置</td>
+								</tr> 
+								<tr class="table-success">
+										<td>13:30 - 14:00</td>
+										<td>開幕</td>
+										<td>嘉賓，長官開幕致詞</td>
+								</tr> 
+								<tr class="table-light">
+									<td>14:00 - 15:15</td>
+									<td>交流會（上）</td>
+									<td>五個團隊輪流簡報、介紹</td>
+								</tr>
+								<tr class="table-success">
+									<td>15:45 - 17:00</td>
+									<td>交流會（下）</td>
+									<td>五個團隊輪流簡報、介紹</td>
+								</tr>
+								<tr class="table-light">
+									<td>18:00 - 21:00</td>
+									<td>晚宴</td>
+									<td>交流分享晚宴</td>
+								</tr>																						
+							</tbody>						
+						</table>
+					<br><br>
+					<div class="col-md-6  col-xs-12 col-sm-12">
+						<iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3611.5513338260207!2d121.77049761465632!3d25.1508551839178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1513603377384" width="100%" height="100%" frameborder="0" style="border:0; overflow:hidden;" allowfullscreen></iframe>
 					</div>
-					<!-- <a href="#two" class="more">Learn More</a> -->
+					</div>
+					</div>
 					</section>
-
 				</div>
 
 
 
-				<div class="section">
+				<div class="section" >
+						<!-- One -->
+					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
+					<div >
+					</div>
+					</section>	
+				</div>
 
-					<!-- Two -->
-					<section id="two" class="wrapper post bg-img" data-bg="banner5.jpg">
+
+					<div class="section" >
+							<!-- One -->
+						<section id="banner" class="bg-img" data-bg="yu-b.jpg">
 						<div class="inner">
-							<article class="box">
-								<header>
-									<h2>Mus elit a ultricies at</h2>
-									<p>12.21.2016</p>
-								</header>
-								<div class="content">
-									<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-								</div>
-								<footer>
-									<a href="generic.html" class="button alt">Learn More</a>
-								</footer>
-							</article>
 						</div>
-						<a href="#three" class="more">Learn More</a>
-					</section>
-				</div>
-
-
-				<div class="section">
-					<!-- Three -->
-					<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
-						<div class="inner">
-						<article class="box">
-						<header>
-							<h2>Varius a cursus aliquet</h2>
-							<p>11.11.2016</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-						</article>
-						</div>
-						<a href="#four" class="more">Learn More</a>
-					</section>
-				</div>
+						</section>
+					</div>
 		</div>
 
 
