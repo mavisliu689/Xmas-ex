@@ -88,6 +88,9 @@
 			.bottom-b-text {
 				line-height: .7em;
 			}
+			table {
+				font-size: 18px !important;
+			}
 			@media screen and (max-width: 980px) {
 				#left-title{
 					margin-top: 2rem;
@@ -174,9 +177,11 @@
 				}
 
 				.page-title {
-					font-size: 1.5rem !important;
+					font-size: 1.3rem !important;
 				}
-
+				table {
+					font-size: 14px !important;
+				}
 			}
 			@media screen and (max-width: 480px) {
 
@@ -205,7 +210,7 @@
 				}
 				.date-pos {
 					left: 3rem;
-					bottom: -4.5rem;
+					bottom: -5.5rem;
 				}
 				#date {
 					width: 100px;
@@ -213,6 +218,12 @@
 				}
 				.bottom-b-text {
 					line-height: 1em;
+				}
+				.contanier-outer{
+					height: 60vh !important;
+				}
+				table {
+					font-size: 14px !important;
 				}
 			}
 		</style>
@@ -274,14 +285,14 @@
 				<div class="section">
 					<!-- One -->
 					<section id="banner" class="bg-img" data-bg="yu-b.jpg" >
-					<div class="row" style="width: 100vw; height: 70vh;">
+					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
 						<div class="col-md-8 col-xs-12 col-sm-10 contanier" style="
 													border-radius: 15px;
 													background-color: #ffffff;">
 							<strong class="page-title text-center"
 								style="margin-left: 5%; font-size:26px; color:black;"
 								>12/24 (日) 跨產業交流會</strong>
-							<table class="table table-striped table-hover"
+							<table class="table table-striped table-bordered table-hover"
 								style="width:100%;"
 									id="time-table">
 								<thead>
@@ -362,14 +373,15 @@
 				<div class="section" >
 						<!-- two -->
 					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
-					<div class="row" style="width: 100vw; height: 70vh;">
+					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
 						<div class="col-md-8 col-xs-12 col-sm-10 contanier" style="
 													border-radius: 15px;
 													background-color: #ffffff;">
 							<strong class="page-title text-center"
-								style="margin-left: 2%; font-size:26px; color:black;"
+								style="margin-left: 1%; font-size:26px; color:black;"
 								>12/25 (一) 耶誕新創博覽會</strong>
-							<table class="table table-striped table-hover"
+							<table class="table table-striped table-hover table-bordered"
+									style="margin-left: -2%;"
 									id="time-table">
 							<thead>
 								<tr>
@@ -460,34 +472,7 @@
 					</div>
 		</div>
 
-
-
-
-
-
-		<!-- Four -->
-			<!-- <section id="four" class="wrapper post bg-img" data-bg="banner3.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Luctus blandit mi lectus in nascetur</h2>
-							<p>10.30.2016</p>
-						</header>
-						<div class="content">
-							<p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
-						</div>
-						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-			</section> -->
-
-
 		<!-- Scripts -->
-			<!-- <script src="assets/js/jquery.min.js"></script> -->
-			<!-- <script src="assets/js/jquery.scrolly.min.js"></script> -->
-			<!-- <script src="assets/js/jquery.scrollex.min.js"></script> -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
