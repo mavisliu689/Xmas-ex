@@ -28,8 +28,6 @@
 				margin-bottom: constant(safe-area-inset-bottom);
    				margin-bottom: env(safe-area-inset-bottom);
 			}
-
-			.full-screen { height: 100%; min-height: 100%; }
 			table{
 				font-family: Times, Times New Roman, Georgia, serif;
 			}
@@ -113,6 +111,18 @@
 			.page-title{
 				font-size: 22px !important;
 			}
+			#mybg{
+				background-image: url('images/yu-b.jpg');
+				height: 100%;
+				width: 100%;
+				min-width: 100%;
+				z-index: 0;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				position: fixed;
+			}
+
 			@media screen and (max-width: 980px) {
 				#left-title{
 					margin-top: 2rem;
@@ -221,7 +231,7 @@
 					padding: 0.45em;
 				}
 				.row{
-     				margin: 0;
+					margin: 0;
 				}
 			}
 			@media screen and (max-width: 480px) {
@@ -260,9 +270,6 @@
 				.bottom-b-text {
 					line-height: 1em;
 				}
-				.contanier-outer{
-					height: 60vh !important;
-				}
 				#time-table {
 					font-size: 14px !important;
 				}
@@ -270,17 +277,16 @@
 					font-size: 1.1rem !important;
 				}
 				.contanier-tttt {
-					margin-top: -20vh !important;
+					margin-top: -18vh !important;
 				}
 				.table td{
 					padding: 0.45em;
 				}
 				.row{
-     				margin: 0;
+					margin: 0;
 				}
 			}
 		</style>
-		<div class="full-screen">
 		<nav class="navbar mynav-style sticky-top navbar-expand-lg
 				navbar-toggleable-md navbar-dark bg-dark" style="padding: 1%;">
 			<div class="container">
@@ -299,9 +305,10 @@
 				</div>
 			</div>
 		</nav>
-		<div id="fullpage">
+		<div id="mybg"></div>
+		<div id="fullpage" >
 				<div class="section" >
-					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
+					<section id="banner" class="bg-img" >
 						<div>
 							<div class="row">
 								<div class="col-md-8 offset-md-3">
@@ -338,7 +345,7 @@
 
 				<div class="section">
 					<!-- One -->
-					<section id="banner" class="bg-img" data-bg="yu-b.jpg" >
+					<section id="banner" class="bg-img" >
 					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
 						<div class="col-md-8 col-xs-12 col-sm-10 contanier contanier-tttt" style="
 													margin-top: -10vh;
@@ -432,7 +439,7 @@
 
 				<div class="section" >
 					<!-- two -->
-					<section id="banner" class="bg-img" data-bg="yu-b.jpg" >
+					<section id="banner" class="bg-img" >
 					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
 						<div class="col-md-8 col-xs-12 col-sm-10 contanier contanier-tttt" style="
 													margin-top: -10vh;
@@ -518,7 +525,7 @@
 
 					<div class="section" >
 							<!-- One -->
-						<section id="banner" class="bg-img" data-bg="yu-b.jpg">
+						<section id="banner" class="bg-img" >
 							<div class="row">
 									<br>
 									<div class="col-4">
@@ -536,7 +543,6 @@
 						</section>
 					</div>
 		</div>
-		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
@@ -548,6 +554,7 @@
 						anchors: ['1', '2', '3', '4'],
 					});
 				});
+				$('.contanier-outer').height(window.innerHeight*0.65 + 'px');
 			</script>
 	</body>
 </html>
