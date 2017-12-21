@@ -109,10 +109,10 @@
 				line-height: .7em;
 			}
 			.page-title{
-				font-size: 22px !important;
+				font-size: 24px !important;
 			}
 			#mybg{
-				background-image: url('images/yu-b.jpg');
+				background-image: url('./images/yu-b.jpg');
 				height: 100%;
 				width: 100%;
 				min-width: 100%;
@@ -121,6 +121,9 @@
 				background-repeat: no-repeat;
 				background-attachment: fixed;
 				position: fixed;
+			}
+			.contanier-outer {
+				margin-bottom: 10%;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -207,11 +210,10 @@
 				.page-title{
 					font-size: 18px !important;
 				}
-
 			}
 			@media screen and (max-width: 756px) {
 				.contanier {
-					margin-top: -15vh !important;
+					margin-top: 10% !important;
 				}
 				.contanier-2 {
 					display: none !important;
@@ -232,6 +234,9 @@
 				}
 				.row{
 					margin: 0;
+				}
+				.contanier-outer {
+					margin-bottom: 25%;
 				}
 			}
 			@media screen and (max-width: 480px) {
@@ -276,14 +281,14 @@
 				.page-title {
 					font-size: 1.1rem !important;
 				}
-				.contanier-tttt {
-					margin-top: -18vh !important;
-				}
 				.table td{
 					padding: 0.45em;
 				}
 				.row{
 					margin: 0;
+				}
+				.contanier-outer {
+					margin-bottom: 20%;
 				}
 			}
 		</style>
@@ -346,9 +351,8 @@
 				<div class="section">
 					<!-- One -->
 					<section id="banner" class="bg-img" >
-					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
-						<div class="col-md-8 col-xs-12 col-sm-10 contanier contanier-tttt" style="
-													margin-top: -10vh;
+					<div class="row contanier-outer" style="width: 100vw;">
+						<div class="col-md-8 col-xs-12 col-sm-10 contanier " style="
 													border-radius: 15px;
 													background-color: #ffffff;">
 							<strong class="page-title text-center"
@@ -406,7 +410,7 @@
 								style="font-size:.9em; letter-spacing: 2px; color:#333;"
 								>*晚宴:每團隊準備一道20人份餐點</div>
 							<div id="ch-tree" style="position:absolute; bottom:0; right:0; " >
-								<img src="./images/chrismaxtree.png" alt="" style="height: 190px; width:180px;" >
+								<img src="./images/chrismaxtree.png" alt="" style="height: 190px; width:220px;" >
 							</div>
 						</div>
 						<div class="contanier-2 col-md-4" style="
@@ -440,9 +444,8 @@
 				<div class="section" >
 					<!-- two -->
 					<section id="banner" class="bg-img" >
-					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
-						<div class="col-md-8 col-xs-12 col-sm-10 contanier contanier-tttt" style="
-													margin-top: -10vh;
+					<div class="row contanier-outer" style="width: 100vw;">
+						<div class="col-md-8 col-xs-12 col-sm-10 contanier" style="
 													border-radius: 15px;
 													background-color: #ffffff;">
 							<strong class="page-title text-center"
@@ -495,7 +498,7 @@
 								style="font-size:.9em; letter-spacing: 2px; color:#333;"
 								>*晚宴:每團隊準備一道20人份餐點</div>
 							<div id="ch-tree" style="position:absolute; bottom:0; right:0; " >
-								<img src="./images/chrismaxtree.png" alt="" style="height: 190px; width:180px;" >
+								<img src="./images/chrismaxtree.png" alt="" style="height: 190px; width:220px;" >
 							</div>
 						</div>
 					<div class="contanier-2 col-md-4" style="
@@ -554,7 +557,7 @@
 						anchors: ['1', '2', '3', '4'],
 					});
 				});
-				$('.contanier-outer').height(window.innerHeight*0.65 + 'px');
+				$('.contanier-outer').height(window.innerHeight*0.75 + 'px');
 			</script>
 	</body>
 </html>
