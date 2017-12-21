@@ -52,6 +52,7 @@
 			.post {
 				padding-top: 1px !important;
 			}
+			
 			#left-title{
 				font-size:2rem;
 				margin-top:3rem;
@@ -205,6 +206,10 @@
 				#time-table {
 					font-size: 14px !important;
 				}
+				
+				.table td{
+					padding: 0.45em;
+				}
 			}
 			@media screen and (max-width: 480px) {
 
@@ -253,6 +258,9 @@
 				}
 				.contanier-tttt {
 					margin-top: -20vh !important;
+				}
+				.table td{
+					padding: 0.45em;
 				}
 			}
 		</style>
@@ -329,7 +337,7 @@
 									id="time-table">
 								<thead>
 									<tr>
-									<th>時間</th>
+									<th style="width:25%">時間</th>
 									<th>主題</th>
 									<th>內容</th>
 									</tr>
@@ -406,10 +414,10 @@
 
 
 				<div class="section" >
-						<!-- two -->
-					<section id="banner" class="bg-img" data-bg="yu-b.jpg">
+					<!-- two -->
+					<section id="banner" class="bg-img" data-bg="yu-b.jpg" >
 					<div class="row contanier-outer" style="width: 100vw; height: 70vh;">
-						<div class="col-md-8 col-xs-12 col-sm-10 contanier" style="
+						<div class="col-md-8 col-xs-12 col-sm-10 contanier contanier-tttt" style="
 													margin-top: -10vh;
 													border-radius: 15px;
 													background-color: #ffffff;">
@@ -418,18 +426,18 @@
 								><img src="./images/side.png" alt="" style="width: 30px;height: 30px;">
 								12/25(一)耶誕新創博覽會
 								<img src="./images/side.png" alt="" style="width: 30px;height: 30px;"></strong>
-							<table class="table table-striped table-hover table-bordered"
-									style="margin-left: -2%;"
+							<table class="table table-striped table-bordered table-hover"
+								style="width:100%; margin-left: -2%;"
 									id="time-table">
-							<thead>
-								<tr>
-								<th>時間</th>
-								<th>主題</th>
-								<th>內容</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="table-success">
+								<thead>
+									<tr>
+									<th style="width:25%">時間</th>
+									<th>主題</th>
+									<th>內容</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="table-success">
 									<td>09:00 - 11:30</td>
 									<td>場地佈置</td>
 									<td>各攤位進場佈置</td>
@@ -449,24 +457,23 @@
 									<td>場復</td>
 									<td>攤位收拾，場地復原</td>
 								</tr>
-							</tbody>
-						</table>
-					<br><br>
-					<div class="bottom-b-text text-left"
-					style="font-size: .9em; letter-spacing: 2px; color:#333;"
-					>*簡報時間: 10分鐘簡報、5分鐘Q&A</div>
-					<br>
-					<div class="bottom-b-text text-left"
-						style="font-size:.9em; letter-spacing: 2px; color:#333;"
-						>*簡報內容: 2017成果、2018目標、同異業合作方向</div>
-					<br>
-					<div class="bottom-b-text text-left"
-						style="font-size:.9em; letter-spacing: 2px; color:#333;"
-						>*晚宴:每團隊準備一道20人份餐點</div>
-						<div id="ch-tree" style="position:absolute; bottom:0; right:0;">
-							<img src="./images/chrismaxtree.png" alt="" style="height: 190px; width:180px;" >
+								</tbody>
+							</table>
+							<div class="bottom-b-text text-left"
+								style="font-size: .9em; letter-spacing: 2px; color:#333;"
+								>*簡報時間: 10分鐘簡報、5分鐘Q&A</div>
+							<br>
+							<div class="bottom-b-text text-left"
+								style="font-size:.9em; letter-spacing: 2px; color:#333;"
+								>*簡報內容: 2017成果、2018目標、同異業合作方向</div>
+							<br>
+							<div class="bottom-b-text text-left"
+								style="font-size:.9em; letter-spacing: 2px; color:#333;"
+								>*晚宴:每團隊準備一道20人份餐點</div>
+							<div id="ch-tree" style="position:absolute; bottom:0; right:0; " >
+								<img src="./images/chrismaxtree.png" alt="" style="height: 190px; width:180px;" >
+							</div>
 						</div>
-					</div>
 					<div class="contanier-2 col-md-4" style="
 							border-radius: 15px;
 							background-color: transparent;">
