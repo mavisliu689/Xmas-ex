@@ -21,6 +21,9 @@
 	</head>
 	<body>
 		<style>
+			html, body { height: 100%; min-height: 100%; }
+
+			.full-screen { height: 100%; min-height: 100%; }
 			table{
 				font-family: Times, Times New Roman, Georgia, serif;
 			}
@@ -211,6 +214,9 @@
 				.table td{
 					padding: 0.45em;
 				}
+				.row{
+     				margin: 0;
+				}
 			}
 			@media screen and (max-width: 480px) {
 
@@ -263,8 +269,12 @@
 				.table td{
 					padding: 0.45em;
 				}
+				.row{
+     				margin: 0;
+				}
 			}
 		</style>
+		<div class="full-screen">
 		<nav class="navbar mynav-style sticky-top navbar-expand-lg
 				navbar-toggleable-md navbar-dark bg-dark" style="padding: 1%;">
 			<div class="container">
@@ -519,6 +529,7 @@
 								</div>
 						</section>
 					</div>
+		</div>
 		</div>
 
 		<!-- Scripts -->
