@@ -424,13 +424,14 @@
 								<div id="map-1"></div>
 								<script>
 								function initMap() {
-									var ntou = {lat: 25.1508192, lng: 121.7724605};
+									var nmmst = {lat:25.1406959, lng: 121.79760800};
+
 									var map = new google.maps.Map(document.getElementById('map-1'), {
 										zoom: 16,
-										center: ntou
+										center: nmmst
 									});
 									var marker = new google.maps.Marker({
-										position: ntou,
+										position: nmmst,
 										map: map
 									});
 								}
@@ -509,14 +510,13 @@
 							<div id="map-2"></div>
 							<script>
 							function initMap2() {
-								var nmmst = {lat:25.1406959, lng: 121.79760800};
-
+								var ntou = {lat: 25.1508192, lng: 121.7724605};
 								var map = new google.maps.Map(document.getElementById('map-2'), {
 									zoom: 16,
-									center: nmmst
+									center: ntou
 								});
 								var marker = new google.maps.Marker({
-									position: nmmst,
+									position: ntou,
 									map: map
 								});
 							}
